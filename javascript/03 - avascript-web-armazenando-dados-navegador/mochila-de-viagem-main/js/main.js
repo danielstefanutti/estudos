@@ -13,6 +13,7 @@ form.addEventListener("submit", (evento) => {
     const quantidade = evento.target.elements['quantidade']
 
 
+    
     //  Const para conferir elemento nome no array itens 
     const existe = itens.find( elemento => elemento.nome === nome.value ) 
     console.log(existe)
